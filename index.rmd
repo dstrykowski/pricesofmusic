@@ -44,6 +44,6 @@ Strykowski, Derek R. “Prices of Music at Breitkopf & Härtel: Publication List
 
 <hr>
 
-©2018–2021 [Derek R. Strykowski](https://dstrykowski.com). This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).  
+©2018–2021 [Derek R. Strykowski](https://dstrykowski.com). This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). The code is available on [GitHub](https://github.com/dstrykowski/pricesofmusic/).  
 &nbsp;  
 &nbsp;  

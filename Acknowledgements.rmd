@@ -1,0 +1,32 @@
+---
+output:
+  html_document:
+    css: "StyleSheet.css"
+title: "Prices of Music at Breitkopf & Härtel"
+---
+
+<h3 style="text-align: center;">*Publication Lists from the* Intelligenz-blatt zur Allgemeine musikalische Zeitung</h3>
+
+<p style="text-align: center;">![](divider.png){width=25%}</p>
+
+<h4 style="text-align: center;">Derek R. Strykowski, *University at Buffalo*</h4>
+
+&nbsp;  
+
+<hr>
+
+###### [The&nbsp;Publication&nbsp;Lists](index.rmd)&nbsp;&nbsp;&nbsp;&nbsp; [Introduction&nbsp;to&nbsp;the&nbsp;Project](Introduction.rmd)&nbsp;&nbsp;&nbsp;&nbsp;**[Acknowledgements](Acknowledgements.rmd)**
+
+<hr>
+
+I gratefully acknowledge the many colleagues and mentors who have lent their support and guidance to the project that has produced (among other things) the data set presented here, including Allan Keiler, David Huron, Margarita Corral, Stephanie Vander Wel, and James Currie, as well as the staff of the Lewis Music Library at the Massachusetts Institute of Technology.
+
+You can learn more about my work as a musicologist at https://dstrykowski.com/.
+
+&nbsp;
+
+<hr>
+
+©2018–2021 [Derek R. Strykowski](https://dstrykowski.com). This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).  
+&nbsp;  
+&nbsp;  

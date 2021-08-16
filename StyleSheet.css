@@ -1,0 +1,53 @@
+p {
+  line-height: 1.75;
+  font-size: 16px;
+  font-family: "Book Antiqua", Palatino, serif;
+  margin-bottom : 16px;
+}
+
+h1 {
+  font-family: "Book Antiqua", Palatino, serif;
+  margin-top: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Book Antiqua", Palatino, serif;
+  margin-top: 24px;
+}
+
+h3 {
+  font-family: "Book Antiqua", Palatino, serif;
+  margin-top: 24px;
+}
+
+h4 {
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+}
+
+h5 {
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+}
+
+h6 {
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  color: #ab771f;
+}
+
+a:link, a:visited {
+  color: #ab771f;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: red;
+  text-decoration: none;
+}
+
+hr {
+  border: 1px solid #ab771f;
+}

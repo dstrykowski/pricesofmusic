@@ -1,0 +1,49 @@
+---
+runtime: shiny
+output:
+  html_document:
+    css: "StyleSheet.css"
+title: "Prices of Music at Breitkopf & Härtel"
+---
+<h3 style="text-align: center;">*Publication Lists from the* Intelligenz-blatt zur Allgemeine musikalische Zeitung</h3>
+
+<p style="text-align: center;">![](divider.png){width=25%}</p>
+
+<h4 style="text-align: center;">Derek R. Strykowski, *University at Buffalo*</h4>
+
+&nbsp;  
+
+<hr>
+
+###### **[The&nbsp;Publication&nbsp;Lists](index.rmd)**&nbsp;&nbsp;&nbsp;&nbsp; [Introduction&nbsp;to&nbsp;the&nbsp;Project](Introduction.rmd)&nbsp;&nbsp;&nbsp;&nbsp;[Acknowledgements](Acknowledgements.rmd)
+
+<hr>
+
+Breitkopf & Härtel founded a weekly newspaper called the *Allgemeine musikalische Zeitung* in October of 1798. About once per month, for the next forty years, readers also received a supplement called the *Intelligenz-blatt zur Allgemeine musikalische Zeitung.* A central feature of the *Intelligenz-blatt,* before its discontinuation in December of 1838, were the publication lists in which Breitkopf & Härtel and other firms would advertise their latest music to potential customers. The 159 publication lists issued by Breitkopf & Härtel itself provide a record of the musical editions (and occasional books and portraits) that the publisher printed during the early nineteenth century. This data set contains 6,405 advertisements for the music of approximately nine hundred composers and arrangers. Details gathered from the publication lists include the issue number, date of advertisement, name of composer or arranger, title of publication (often with key and instrumentation), and price as quoted in Saxon thalers and groschen. Entries are tagged to indicate repeated advertisements. The full name and dates of the credited musician (if known) are also provided. For more information, please consult the [Introduction](Introduction.rmd).
+
+&nbsp;  
+
+
+```{r, echo = FALSE, message = FALSE}
+library(DT)
+
+publications <- read.csv(file = "Publications.csv")
+
+renderDataTable({
+  datatable(publications, filter = "top", options = list(scrollX = T))
+  })
+```
+Scroll for additional information ➤➤➤  
+
+&nbsp;  
+
+## How to Cite this Project
+Strykowski, Derek R. “Prices of Music at Breitkopf & Härtel: Publication Lists from the *Intelligenz-blatt zur Allgemeine musikalische Zeitung*.” Data set with introduction. 2018. [https://dstrykowski.shinyapps.io/pricesofmusic/](https://dstrykowski.shinyapps.io/pricesofmusic/) 
+
+&nbsp;  
+
+<hr>
+
+©2018–2021 [Derek R. Strykowski](https://dstrykowski.com). This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).  
+&nbsp;  
+&nbsp;  
